@@ -1,0 +1,30 @@
+.index {
+  background-color: #9fbf85;
+}
+
+.main-card {
+  border-radius: 50%;
+}
+
+.card-retrieval {
+  background-color: #dd9d03 !important;
+  border: none !important;
+  border-radius: 30px !important;
+}
+
+.card-retrieval-items {
+  border-radius: 30px !important;
+}
+
+.active-postings-card {
+  background-color: #a95a00 !important;
+  border: none !important;
+}
+
+.retrieval-info {
+  font-size: 13px;
+}
+
+.retrieval-info-username {
+  font-size: 13px;
+}

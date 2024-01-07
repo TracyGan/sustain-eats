@@ -1,7 +1,7 @@
 import Image from "./Image";
 import NavBar from "../nav/Navbar";
 import InputPost from "./InputPost";
-import "../login-page/login.scss";
+import "../login-page/login.css";
 
 const Index = () => {
   return (

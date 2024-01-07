@@ -1,4 +1,4 @@
-import "./settings.scss";
+import "./settings.css";
 import image from "../images/squirrel.jpeg";
 
 const SideProfile = () => {

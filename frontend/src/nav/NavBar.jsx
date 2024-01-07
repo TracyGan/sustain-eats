@@ -1,4 +1,4 @@
-import "../login-page/login.scss";
+import "../login-page/login.css";
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 

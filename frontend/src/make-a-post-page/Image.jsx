@@ -1,4 +1,4 @@
-import "../login-page/login.scss";
+import "../login-page/login.css";
 
 const Image = () => {
   return (

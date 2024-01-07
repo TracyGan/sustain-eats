@@ -9,6 +9,8 @@
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+  --primary-color: #9fbf85;
+  --secondary-color: #ebb707;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <div className="index">
       <div className="row">
-        <div className="col-1">
+        <div className="col-1 mt-3 ps-4">
           <NavBar />
         </div>
         <div className="col-4 mt-5">

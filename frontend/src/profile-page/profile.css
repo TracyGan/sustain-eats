@@ -2,8 +2,9 @@
   background-color: #9fbf85;
 }
 
-.main-card {
-  border-radius: 50%;
+.main-card,
+.active-postings-card {
+  border-radius: 30px !important;
 }
 
 .card-retrieval {
@@ -21,10 +22,21 @@
   border: none !important;
 }
 
+.image-posting-item {
+  border-radius: 5%;
+}
+
 .retrieval-info {
   font-size: 13px;
 }
 
 .retrieval-info-username {
   font-size: 13px;
+}
+
+.btn:active,
+.btn:focus {
+  outline: 0 !important;
+  border: none;
+  box-shadow: none !important;
 }

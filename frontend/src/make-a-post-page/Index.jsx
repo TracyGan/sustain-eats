@@ -1,12 +1,12 @@
 import Image from "./Image";
 import NavBar from "../nav/Navbar";
 import InputPost from "./InputPost";
-import "../login-page/login.css";
+import "./create-post.css";
 
 const Index = () => {
   return (
-    <div className="container-fluid g-0">
-      <div className="row g-0">
+    <div className="create-post container-fluid ">
+      <div className="row">
         <div className="col-1">
           <NavBar />
         </div>

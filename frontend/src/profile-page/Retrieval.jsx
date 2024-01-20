@@ -1,9 +1,13 @@
 import "./profile.css";
-import Item from "./Item";
+import RetrievalItem from "./RetrievalItem";
 
 const items = [];
-for (let i = 0; i < 3; i++) {
-  items.push(<Item key={i}></Item>);
+for (let i = 0; i < 4; i++) {
+  items.push(
+    <div className="col-4">
+      <RetrievalItem key={i}></RetrievalItem>
+    </div>
+  );
 }
 
 const Retrieval = () => {
@@ -11,8 +15,8 @@ const Retrieval = () => {
     <div className="retrieval">
       <div className="card card-retrieval">
         <div className="card-body">
-          <div className="row">
-            <div className="col-4">{items}</div>
+          <div className="container">
+            <div className="row flex-nowrap overflow-auto">{items}</div>
           </div>
         </div>
       </div>

@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import DatePicker from "react-datepicker";
 
 import "react-datepicker/dist/react-datepicker.css";
-import "../login-page/login.css";
+import "./create-post.css";
 
 const InputPost = () => {
-  const [startDate, setDate] = useState(new Date());
+  const [startDate, setDate] = useState(null);
+  const [startExpDate, setExpDate] = useState(null);
 
   const today = new Date();
   const minDate = new Date(
@@ -14,10 +15,17 @@ const InputPost = () => {
     today.getDate() + 2
   );
 
+  const secondMinDate = new Date(
+    today.getFullYear(),
+    today.getMonth(),
+    today.getDate() + 1
+  );
+
   return (
     <div className="input-post">
+      {/*eslint-disable-next-line react/no-unknown-property */}
       <form className="container needs-validation" novalidate>
-        <div className="row">
+        <div className="row ">
           <div className="col-10 mt-5">
             <h5>Listing Title</h5>
             <div className="input-group has-validation">
@@ -48,8 +56,8 @@ const InputPost = () => {
             <h5>Expiration Date</h5>
             <DatePicker
               className="date-picker pt-2 pb-2 ps-2"
-              selected={startDate}
-              onChange={(date) => setDate(date)}
+              selected={startExpDate}
+              onChange={(date) => setExpDate(date)}
               minDate={minDate}
               required
             ></DatePicker>
@@ -67,7 +75,8 @@ const InputPost = () => {
               timeCaption="time"
               dateFormat="MM/dd/yyyy h:mm aa"
               showTimeSelect
-              minDate={startDate}
+              minDate={secondMinDate}
+              required
             ></DatePicker>
           </div>
         </div>
@@ -82,7 +91,7 @@ const InputPost = () => {
             </div>
           </div>
         </div>
-        <div className="row mt-3">
+        <div className="row mt-5">
           <div className="col">
             <button className="btn btn-main" type="submit">
               Submit

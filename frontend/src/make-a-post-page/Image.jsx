@@ -72,11 +72,6 @@ const Image = () => {
               </div>
             </div>
           </div>
-          {/* <div className="offset-md-2 col-6 align-self-center mt-5">
-            <button type="btn" className="btn btn-pill">
-              Upload Image
-            </button>
-          </div> */}
         </div>
       </div>
     </div>

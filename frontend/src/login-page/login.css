@@ -31,10 +31,15 @@
 
 .btn-sign-in {
   background-color: grey !important;
+  border: none !important;
   color: white;
   width: 70%;
 }
 
 .bi {
   font-size: 2rem;
+}
+
+.btn-primary {
+  border-radius: 20px !important;
 }

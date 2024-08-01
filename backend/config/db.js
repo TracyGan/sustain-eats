@@ -1,12 +1,9 @@
 import mongoose from "mongoose";
-import { mongoDBURL } from "./config.js";
-
-const db = mongoDBURL;
-/* Replace <password> with your database password */
+import { db } from "./dbpass.js";
 
 mongoose.set("strictQuery", true, "useNewUrlParser", true);
 
-export const connectDB = async () => {
+const connectDB = async () => {
   try {
     await mongoose.connect(db);
     console.log("MongoDB is Connected...");
@@ -16,5 +13,5 @@ export const connectDB = async () => {
   }
 };
 
-// export default connectDB();
 // module.exports = connectDB;
+export default connectDB;

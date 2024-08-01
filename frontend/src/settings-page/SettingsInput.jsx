@@ -54,7 +54,7 @@ const SettingsInput = () => {
         </div>
         <div className="row justify-content-end">
           <div className="col-5 mt-5 me-3">
-            <button type="btn" className="btn btn-primary w-75 pe-3">
+            <button type="btn" className="btn secondary-btn w-75 pe-3">
               Update
             </button>
           </div>

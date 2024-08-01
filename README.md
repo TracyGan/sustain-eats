@@ -1,6 +1,6 @@
 # SustainEats
 
-SustainEats is an ongoing React.js-based web application designed to facilitate the sharing of surplus food items among users. It provides a platform for individuals to give away ingredients or food that they won't be using due to travel plans, allergies or other reasons, thereby reducing food wastage and promoting sustainability.
+SustainEats is an ongoing MERN stack application designed to facilitate the sharing of surplus food items among users. It provides a platform for individuals to give away ingredients or food that they won't be using due to travel plans, allergies or other reasons, thereby reducing food wastage and promoting sustainability.
 
 ## Background
 SustainEats originated from a hackthon involving four passionate individuals aiming to address the issue of food wastage. The idea stemmed from our collective concern about the amount of food discarded unnecessarily due to various reasons. While participating in the hackathon, we conceptualized and prototyped the initial version of SustainEats to enable users to share surplus food within their communities.
